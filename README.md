@@ -34,8 +34,10 @@ export MAIL_USERNAME=....
 export MAIL_PASSWORD=....
 ```
 Готово.
-Запустить **flusk run**
-
+Запустить
+```
+flask run
+```
 Работает на http://127.0.0.1:5000/
 
 Запросы отправлять на http://127.0.0.1:5000/api
