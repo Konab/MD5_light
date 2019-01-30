@@ -27,11 +27,11 @@ flask db upgrade
 
 Для корректной работы функции, отправки емайл отчёта добавте информацию по Вашему почтовому серверу:
 ```
-export MAIL_SERVER=....
-export MAIL_PORT=....
-export MAIL_USERNAME=....
-export MAIL_USERNAME=....
-export MAIL_PASSWORD=....
+export MAIL_SERVER=<server>
+export MAIL_PORT=<port>
+export MAIL_USE_TLS=<tls>
+export MAIL_USERNAME=<your username>
+export MAIL_PASSWORD=<your password>
 ```
 Готово.
 Запустить
